@@ -49,6 +49,13 @@ h1 {
   color: #6665AB;
 }
 
+h2{
+  font-family: serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #6665AB;
+}
+
 /* Decide to add an h3 to fit my html structure */
 h3 {
   font-family: serif;
