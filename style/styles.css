@@ -15,7 +15,7 @@ body {
 #nav {
   background: #fff;
   border-bottom: 1px solid #A4C76A;
-  text-align: left;
+  text-align: center;
   padding: 1rem;
   margin-bottom: 2rem;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 div[container] {
-  max-width: 100%;
+  max-width: 60%;
   margin: 0 auto 2rem;
   background: #fff;
   padding: 2rem;
