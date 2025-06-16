@@ -24,6 +24,11 @@ body {
   margin-bottom: 2rem;
 }
 
+.image1 {
+  width: 50%;
+  height: auto;
+}
+
 #nav a {
   color: #333;
   text-decoration: none;
