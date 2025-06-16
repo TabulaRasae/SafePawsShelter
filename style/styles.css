@@ -98,18 +98,18 @@ input[type="submit"] {
   margin-right: 0.5rem;
 }
 input[type="submit"]:hover {
-  background: #335f96;  
+  background: #3F7FB4;  
 }
 
 input[type="reset"] {
-  background: #92C5D1; 
+  background: #3F7FB4; 
   color: #333;
 }
 input[type="reset"]:hover {
-  background: #A4C76A;
+  background: #3F7FB4;
 }
 
 input:focus {
   outline: none;
-  border-bottom-color: #42B16F;
+  border-bottom-color: #3F7FB4;
 }
