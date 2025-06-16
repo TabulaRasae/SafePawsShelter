@@ -29,6 +29,13 @@ body {
   height: auto;
 }
 
+.pindex {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin-bottom: 2rem;
+}
+
 #nav a {
   color: #333;
   text-decoration: none;
