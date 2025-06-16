@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Michelangelo Javier">
+    <meta name="description" content="Application Page">
+    <title>Adoption aPUPlication</title>
+    <link rel="stylesheet" href="style/styles.css" />
 </head>
 
 <div id=nav>
@@ -16,6 +19,10 @@
 </div>
 
 <body>
+
+    <div>
+        <h2><em>“We’re so excited you’re giving a pup a forever home!”</em></h2>
+    </div>
 
     <div container=100px>
         <h1>Application to Shelter a Pup</h1>
@@ -39,10 +46,16 @@
             <input type="text" id="state" name="state" placeholder="Enter State Here..."></input-type><br>
             <label for="zip">Zip Code:</label>
             <input type="text" id="zip" name="zip" placeholder="Enter Zip Code Here..."></input-type><br>
-            <label for="pup">Pup you are applying for:</label>
-            <input type="text" id="pup" name="pup" placeholder="Enter Pup Name Here..."></input-type><br>
-            <input type="submit" placeholder="Submit"></input-type>
+            <label for="pups">Pups Available:</label>
+            <select id="pups" name="pups">
+                <option value="Buddy">Buddy</option>
+                <option value="Max">Max</option>
+                <option value="Bella">Bella</option>
+                <option value="Lucy">Lucy</option>
+                <option value="Charlie">Charlie</option>
+            </select><br>
 
+            <input type="submit" value="Submit Application"></input-type>
             <input type="reset" value="Clear Form"></input-type>
 
         </form>
