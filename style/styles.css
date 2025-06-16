@@ -12,6 +12,10 @@ body {
   padding: 0 1rem 4rem;
 }
 
+#map{
+  width : 40%;
+}
+
 #nav {
   background: #fff;
   border-bottom: 1px solid #A4C76A;
