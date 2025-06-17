@@ -9,11 +9,29 @@
     <title>Adoption aPUPlication</title>
     <link rel="stylesheet" href="style/styles.css" />
 </head>
+<style>
+    .dog-gallery {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dog-card {
+        text-align: center;
+        size: 50px;
+    }
+
+    .dog-card img {
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+</style>
 
 <div id=nav>
 
-    <a href="index.html">Homepage</a> 
-    <a href="app.html">Apply For a Pup</a> 
+    <a href="index.html">Homepage</a>
+    <a href="app.html">Apply For a Pup</a>
     <a href="contact.html">Contact Us</a>
 
 </div>
@@ -21,7 +39,41 @@
 <body>
 
     <div>
-        <h2><em>“We’re so excited you’re giving a pup a forever home!”</em></h2>
+        <h2 style="text-align: center;"><em>“We’re so excited you’re giving a pup a forever home!”</em></h2>
+    </div>
+
+    <div>
+        <div class="dog-gallery">
+            <div class="dog-card">
+                <img src="img/dog1.jpg" alt="Buddy the dog" width="200">
+                <p>Buddy</p>
+            </div>
+
+            <div class="dog-card">
+                <img src="img/dog2.jpg" alt="Bella the dog" width="200">
+                <p>Bella</p>
+            </div>
+
+            <div class="dog-card">
+                <img src="img/dog3.jpg" alt="Max the dog" width="200">
+                <p>Max</p>
+            </div>
+            <div class="dog-card">
+                <img src="img/dog4.jpg" alt="Buddy the dog" width="200">
+                <p>Buddy</p>
+            </div>
+
+            <div class="dog-card">
+                <img src="img/dog5.jpg" alt="Bella the dog" width="200">
+                <p>Bella</p>
+            </div>
+
+            <div class="dog-card">
+                <img src="img/dog6.jpg" alt="Stitch" width="200">
+                <p>Stitch</p>
+            </div>
+        </div>
+
     </div>
 
     <div container=100px>
@@ -53,6 +105,7 @@
                 <option value="Bella">Bella</option>
                 <option value="Lucy">Lucy</option>
                 <option value="Charlie">Charlie</option>
+                <option value="Stitch">Stitch</option>
             </select><br>
 
             <input type="submit" value="Submit Application"></input-type>
